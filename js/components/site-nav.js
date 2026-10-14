@@ -3,7 +3,7 @@
 // full-screen mobile menu. Fully self-contained: markup + style + behavior.
 
 const LINKS = [
-  { key: 'home', href: 'index.html', label: 'Home' },
+  { key: 'home', href: './', label: 'Home' },
   { key: 'teaching', href: 'teaching.html', label: 'Teaching' },
   { key: 'performances', href: 'performances.html', label: 'Performances' },
   { key: 'contact', href: 'contact.html', label: 'Contact' },
@@ -79,7 +79,7 @@ class SiteNav extends HTMLElement {
       </style>
       <nav class="site-nav">
         <div class="inner">
-          <a href="index.html" class="brand">Ashish Masih</a>
+          <a href="./" class="brand">Ashish Masih</a>
           <div class="links">
             ${LINKS.map((l) => `<a href="${l.href}" class="${l.key === active ? 'active' : ''}">${l.label}</a>`).join('')}
           </div>
