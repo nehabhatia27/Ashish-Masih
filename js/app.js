@@ -16,3 +16,10 @@ import { initReveal } from './reveal.js';
 document.addEventListener('DOMContentLoaded', () => {
   initReveal();
 });
+
+// Old links ending in .html (or /index.html) show the clean address instead.
+try {
+  const p = location.pathname;
+  const clean = p.replace(/\/index\.html$/, '/').replace(/\.html$/, '');
+  if (clean !== p) history.replaceState(null, '', clean + location.search + location.hash);
+} catch (e) { /* address-bar tidy-up is cosmetic */ }

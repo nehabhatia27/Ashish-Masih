@@ -4,9 +4,9 @@
 
 const LINKS = [
   { key: 'home', href: './', label: 'Home' },
-  { key: 'teaching', href: 'teaching.html', label: 'Teaching' },
-  { key: 'performances', href: 'performances.html', label: 'Performances' },
-  { key: 'contact', href: 'contact.html', label: 'Contact' },
+  { key: 'teaching', href: 'teaching', label: 'Teaching' },
+  { key: 'performances', href: 'performances', label: 'Performances' },
+  { key: 'contact', href: 'contact', label: 'Contact' },
 ];
 
 class SiteNav extends HTMLElement {

@@ -2,7 +2,7 @@
 //   <media-placeholder slot="media" ...></media-placeholder>
 //   <h3 slot="heading">Drum Classes</h3>
 //   <p slot="body">...</p>
-//   <a slot="cta" class="link-cta" href="teaching.html">Explore Classes</a>
+//   <a slot="cta" class="link-cta" href="teaching">Explore Classes</a>
 // </content-spread>
 // The asymmetric (7/5, not 6/6) two-column feature block used for the
 // "two paths" sections. `reverse` flips media/text sides.

@@ -47,9 +47,9 @@ class SiteFooter extends HTMLElement {
               <div class="col">
                 <h5>Explore</h5>
                 <a href="./">Home</a>
-                <a href="teaching.html">Teaching</a>
-                <a href="performances.html">Performances</a>
-                <a href="contact.html">Contact</a>
+                <a href="teaching">Teaching</a>
+                <a href="performances">Performances</a>
+                <a href="contact">Contact</a>
               </div>
               <div class="col">
                 <h5>Get In Touch</h5>
